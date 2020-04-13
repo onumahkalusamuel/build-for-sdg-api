@@ -1,3 +1,0 @@
-POST		/sdg/api/v1/on-covid-19/			200		00ms
-POST		/sdg/api/v1/on-covid-19/xml			200		00ms
-POST		/sdg/api/v1/on-covid-19/xmlkj			200		00ms
