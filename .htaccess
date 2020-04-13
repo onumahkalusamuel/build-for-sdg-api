@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^api/v1/on-covid-19/log$ log.php [L]
+RewriteRule ^api/v1/on-covid-19/([\w+]+)$ index.php?format=$1 [L]
+
+Options All -Indexes
