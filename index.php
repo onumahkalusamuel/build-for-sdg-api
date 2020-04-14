@@ -43,9 +43,9 @@ function returnJSON($response) {
 }
 
 function returnXML($response) {
-    header('Content-Type: text/xml');
+    header('Content-Type: application/xml; charset=utf-8');
     $xmlTree = new DOMDocument('1.0', 'UTF-8');
-    $xmlRoot = $xmlTree->createElement('xml');
+    $xmlRoot = $xmlTree->createElement('estimate');
     $xmlTree->appendChild($xmlRoot);
 
     foreach($response as $key => $value) {
