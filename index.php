@@ -68,9 +68,7 @@ function returnXML($response) {
                     continue;
                 }
             }
-
         }
     }
-
     echo $xmlTree->saveXML();
 }
